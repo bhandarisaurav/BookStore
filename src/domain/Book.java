@@ -9,6 +9,20 @@ public class Book {
     private String purchased_date;
     private String category;
 
+
+    public Book(String name, String author, String isbn, String price, String purchased_date, String category) {
+        this.name = name;
+        this.author = author;
+        this.isbn = isbn;
+        this.price = price;
+        this.purchased_date = purchased_date;
+        this.category = category;
+    }
+
+    public Book() {
+
+    }
+
     public String getId() {
         return id;
     }
